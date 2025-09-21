@@ -5,7 +5,7 @@ var rich_text_label: RichTextLabel = RichTextLabel.new()
 var metadata: Variant
 var selected: bool = false: set = set_selected
 
-var stylebox_plain: StyleBox = EditorInterface.get_base_control().get_theme_stylebox("cursor", "ItemList")
+var stylebox_plain: StyleBox = EditorInterface.get_base_control().get_theme_stylebox("normal", "Label")
 var stylebox_hovered: StyleBox = EditorInterface.get_base_control().get_theme_stylebox("hovered", "ItemList")
 var stylebox_selected: StyleBox = EditorInterface.get_base_control().get_theme_stylebox("selected", "ItemList")
 var stylebox_selected_focus: StyleBox = EditorInterface.get_base_control().get_theme_stylebox("selected_focus", "ItemList")
